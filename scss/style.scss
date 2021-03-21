@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;800&display=swap");
+
+$primaryColor: #2e3366;
+$violet: #690b9a;
+$pink: #af358c;
+$blue: #2969ca;
+$lightBlue: #22b8cf;
+$cream: #f6d2d4;
+$white: #fff;
+$font: 16px;
+$fontFamily: "Raleway", sans-serif;
+$transition: 0.4s ease-in-out;
+/**********
+Basic styles
+**********/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: $fontFamily;
+    font-size: $font;
+    line-height: 1.6;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+}
